@@ -1,0 +1,44 @@
+.conteiner{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(227, 231, 232);
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 260px;
+    border-radius: 6px;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.formulario.criar{
+    width: 400px;
+    height: 300px;
+}
+
+.formulario h4{
+    margin: 10px auto 25px;
+    font-size: 22px;
+}
+
+.formulario input{
+    display: flex;
+    height: 35px;
+    width: 95%;
+    font-size: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+.formulario input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}

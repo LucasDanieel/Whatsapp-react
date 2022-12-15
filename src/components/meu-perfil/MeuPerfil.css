@@ -1,0 +1,136 @@
+.meu-perfil {
+  display: none;
+}
+
+.meu-perfil-topo {
+  display: flex;
+  width: 100%;
+  height: 108px;
+  background-color: #058468;
+}
+
+.voltar-contatos {
+  display: flex;
+  align-items: center;
+  margin: 48px 18px 0;
+}
+
+.voltar-contatos svg {
+  width: 26px;
+  height: 26px;
+  color: #fff;
+}
+
+.voltar-contatos h5 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 19px;
+  margin-left: 31px;
+}
+
+.info-meu-perfil {
+  display: flex;
+  height: 823px;
+  width: 100%;
+  flex-direction: column;
+  background-color: #f0f2f5;
+}
+
+.conteiner-foto {
+  display: flex;
+  height: 256px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto-perfil {
+  height: 200px;
+  width: 200px;
+}
+
+.foto {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.foto input{
+  display: none;
+}
+
+.adicionar-foto {
+  display: flex;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(84, 101, 111, 0.821);
+}
+
+.adicionar-foto svg {
+  width: 25px;
+  height: 25px;
+  margin: 14px 0 10px;
+  color: #fff;
+}
+
+.adicionar-foto span {
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  line-height: 16px;
+}
+
+.nome-recado {
+  display: flex;
+  width: 100%;
+  height: 95px;
+  background-color: #fff;
+}
+
+.nome-input {
+  margin-left: 27px;
+}
+
+.nome-input p {
+  color: #06775e;
+  font-size: 14px;
+  margin: 14px 3px 20px;
+}
+
+.input-icone input {
+  font-family: "Segoe UI";
+  font-size: 17px;
+  border: none;
+  width: 400px;
+  margin-left: 1px;
+  background-color: #fff;
+}
+
+.input-icone input:focus {
+  outline: 0;
+  border-bottom: 2px solid #07886c;
+}
+
+.input-icone input:hover {
+  cursor: text;
+}
+
+.recado-whatsapp {
+  display: flex;
+  width: 100%;
+  height: 82px;
+}
+
+.recado-whatsapp p {
+  margin: 15px 30px;
+  font-size: 14px;
+  color: #8b8c8e;
+}
